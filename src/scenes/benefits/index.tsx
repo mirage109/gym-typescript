@@ -91,7 +91,11 @@ const Benefits = ({ setSelectedPage }: Props) => {
           ))}
         </motion.div>
         <div>
-          <img className="mx-auto" alt="benefits-page-graphic" src={BenefitsPageGraphic}/>
+          <img
+            className="mx-auto"
+            alt="benefits-page-graphic"
+            src={BenefitsPageGraphic}
+          />
           <div>
             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
@@ -122,8 +126,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
               </p>
             </div>
             <div className="relative mt-16">
-              <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] content-sparkles">
-                <ActionButton setSelectedPage={setSelectedPage}>Join Now</ActionButton>
+              <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+                <ActionButton setSelectedPage={setSelectedPage}>
+                  Join Now
+                </ActionButton>
               </div>
             </div>
           </div>
